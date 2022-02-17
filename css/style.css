@@ -1,0 +1,47 @@
+div.debut {
+  font-size: 1.5em;
+}
+table {
+  font-size: 1.5em;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  border: 0.2em solid;
+  border-spacing: 10em;
+  padding: 0.8em;
+  width: 30%;
+}
+th {
+  color: rgb(110, 182, 43);
+  text-align: left;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+tr#colorise {
+  background-color: rgb(119, 119, 128);
+  color: blue;
+}
+form {
+  margin: 3em 0 0 15em;
+}
+#formation {
+  margin-bottom: 2em;
+}
+.spanif {
+  font-size: 2em;
+}
+#boxed {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: auto;
+}
+#luna {
+  margin-top: 2em;
+  margin-left: 5em;
+}
+#personne {
+ font-size: 2em;
+ text-decoration: underline;
+ margin-left: 5em;
+}
