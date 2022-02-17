@@ -45,3 +45,6 @@ padding: auto;
  text-decoration: underline;
  margin-left: 5em;
 }
+p.etalon {
+  text-align: center;
+}
