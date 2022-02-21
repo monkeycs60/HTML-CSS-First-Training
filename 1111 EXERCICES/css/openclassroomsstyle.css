@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('/fonts/dayrom-webfont.woff2') format('woff2'),
+         url('/fonts/dayrom-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('/fonts/ballpark-webfont.woff2') format('woff2'),
+         url('/fonts/ballpark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'day_romanregular';
+    font-size: 2em;
+    background-image: url("/images/fond_jaune.png");
+width: 75%;
+margin: auto;
+}
+h1 {
+    font-family: 'ballparkweiner';
+    font-size: 1.6em;
+}
+
+
+.imagesf {
+    background-image: url("/images/sanfrancisco.jpg");
+background-size: cover;
+height: 280px;
+position: relative;
+}
+.legendep {
+    position: absolute;
+    bottom: 0;
+    text-indent: 20px;
+    margin: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0.7em;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: wheat;
+    overflow: auto;
+    text-overflow: fade(10px);
+}
+
+.boutonarticle {
+    font-size: 1em;
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+    top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(166, 26, 231);
+    text-indent: 0%;
+    line-height: 33px;
+    background-image: url("/images/fond_degraderouge.png");
+background-size: contain;
+border: 2px solid rgb(37, 36, 36);
+border-radius: 10px;
+}
+#sfimg {
+    text-decoration: none;
+    color: white;
+}
+aside {
+    background-color: grey;
+}
+p {
+    
+}

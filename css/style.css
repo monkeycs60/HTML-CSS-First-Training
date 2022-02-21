@@ -48,3 +48,24 @@ padding: auto;
 p.etalon {
   text-align: center;
 }
+#container {
+  display: flex;
+  height: 600px;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.box {
+  width: 10%;
+}
+.box4{
+  order: 1;
+ 
+}
+.box6 {
+ order: 0;
+ flex-shrink: 3;
+ box-shadow: ;
+}

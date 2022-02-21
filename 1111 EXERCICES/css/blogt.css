@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+   }
+#topsection {
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: row;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%
+}
+p {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+   
+}

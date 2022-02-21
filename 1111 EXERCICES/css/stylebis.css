@@ -1,0 +1,125 @@
+
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp6470963.jpg");
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Redressed", cursive;
+    text-align: center;
+    color: yellow
+  }
+  #container {
+    display: flex;
+    flex-flow: column wrap-;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .box {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+  }
+  .box1 {
+    background-color: blueviolet;
+  }
+  .box2 {
+    background-color: brown;
+  }
+  .box3 {
+    margin-top: 3em;
+    background-color: aqua;
+    flex: 0 2 100px;
+  }
+  .box4 {
+    background-color: chartreuse;
+  }
+  .box5 {
+    background-color: coral;
+  }
+  #secondcontainer {
+    display: flex;
+    height: 300px;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    align-content: space-around;
+    margin-top: 3em;
+    opacity: 0.7;
+  }
+  .boxed {
+    width: 20%;
+    border: 0.5px ridge yellow;
+  }
+  .boxed1 {
+    flex-grow: 1;
+    background-color: yellowgreen;
+    border: 5px inset rgb(113, 113, 134);
+  }
+  .boxed2 {
+    flex-grow: 1;
+    background-color: blue;
+  }
+  .boxed3 {
+    flex-grow: 1;
+    background-color: rgb(49, 154, 185);
+  }
+  .boxed4 {
+    flex-grow: 1;
+    background-color: rgb(97, 31, 172);
+  }
+  .boxed5 {
+    flex-grow: 1;
+    background-color: rgb(87, 99, 65);
+  }
+  .tableau {
+      color: whitesmoke;
+      width: 20%;
+      flex: 3 1 100px;
+      text-align: center;
+  }
+  .boxed6 {
+margin-left: 15em;
+  }
+  .boxed7 {
+
+  }
+  .boxed8 {
+
+  }
+  .boxed9 {
+
+  }
+  #thirdcontainer {
+    display: flex;
+    height: 300px;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  
+    margin-top: -18em;
+    margin-bottom: 10em;
+  }
+  .boxef {
+    width: 10%;
+    padding: 1em;
+    border: 2px solid black;
+    background-color: grey;
+  }
+  .boxef0 {
+  }
+  .boxef1 {
+    flex: auto;
+  }
+  .boxef2 {
+  }
+  .boxef3 {
+  }
+  #shadowtext {
+    text-shadow: 2px 3px 2px whitesmoke;
+  }
+  .fontf {
+      font-size: 3em;
+      background-image: url("https://www.francefleurs.com/10663-large_default/rose-red-ribbon-40-cm-20-tiges.jpg");
+  }
+ 
