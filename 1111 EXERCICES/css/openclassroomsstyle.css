@@ -1,75 +1,272 @@
 @font-face {
-    font-family: 'day_romanregular';
-    src: url('/fonts/dayrom-webfont.woff2') format('woff2'),
-         url('/fonts/dayrom-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "day_romanregular";
+  src: url("/fonts/dayrom-webfont.woff2") format("woff2"),
+    url("/fonts/dayrom-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'ballparkweiner';
-    src: url('/fonts/ballpark-webfont.woff2') format('woff2'),
-         url('/fonts/ballpark-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "ballparkweiner";
+  src: url("/fonts/ballpark-webfont.woff2") format("woff2"),
+    url("/fonts/ballpark-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#blockpage {
+   
 }
 
 body {
-    font-family: 'day_romanregular';
-    font-size: 2em;
-    background-image: url("/images/fond_jaune.png");
-width: 75%;
-margin: auto;
+  font-family: "day_romanregular";
+  font-size: 2em;
+  background-image: url("/images/fond_jaune.png");
+  width: 75%;
+  margin: auto;
 }
-h1 {
-    font-family: 'ballparkweiner';
-    font-size: 1.6em;
+header {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    background: url("/images/separateur.png") repeat-x bottom;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+align-content: flex-end;
+height: 200px;
+}
+#debutlogo {
+
+display: flex;
+flex-direction: column;
+height: 150px;
+
+}
+#logo {
+    
+    display: flex;
+    flex-direction: row;
+   align-content: flex-end;
+   height: 110px;
+   margin-right: 29em;
+   
+    
+}
+#logo img {
+   width: 100px;
+   height: 100px; 
+}
+header h1 {
+    padding-left: 10px;
+
+}
+header h2 {
+   font-size: 1em; 
+   margin-top: -0.3em;
+   font-weight: 200;
+}
+nav ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 5em;
+    
+
+}
+nav li {
+    
+    
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 0.8em;
+text-transform: uppercase;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(173, 42, 42);
 }
 
+
+
+h1 {
+  font-family: "ballparkweiner";
+  font-size: 2em;
+  margin-left: 10px;
+  
+}
 
 .imagesf {
-    background-image: url("/images/sanfrancisco.jpg");
-background-size: cover;
-height: 280px;
-position: relative;
+  background-image: url("/images/sanfrancisco.jpg");
+  background-size: cover;
+  height: 280px;
+  position: relative;
 }
 .legendep {
-    position: absolute;
-    bottom: 0;
-    text-indent: 20px;
-    margin: auto;
-    height: 50px;
-    line-height: 50px;
-    font-size: 0.7em;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.459);
-    color: wheat;
-    overflow: auto;
-    text-overflow: fade(10px);
+  position: absolute;
+  bottom: 0;
+  text-indent: 20px;
+  margin: auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: 0.7em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: wheat;
+  overflow: auto;
+  text-overflow: fade(10px);
 }
 
-.boutonarticle {
-    font-size: 1em;
-    position: absolute;
-    left: 80%;
-    bottom: 10%;
-    top: 10%;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: rgb(166, 26, 231);
-    text-indent: 0%;
-    line-height: 33px;
-    background-image: url("/images/fond_degraderouge.png");
-background-size: contain;
-border: 2px solid rgb(37, 36, 36);
-border-radius: 10px;
+#ensemblefleche {
+  font-size: 0.5em;
+  position: absolute;
+  left: 81%;
+  top: 85%;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-indent: 0%;
+  line-height: 30px;
+  background-image: url("/images/fond_degraderouge.png");
+  background-size: contain;
+  border: 2px solid rgb(37, 36, 36);
+  border-radius: 10px;
+  margin-left: 7em;
+}
+#boutonfleche {
+  position: relative;
+  left: 4px;
 }
 #sfimg {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.781);
 }
-aside {
-    background-color: grey;
-}
-p {
+#blocprinc {
+    display: flex;
+    justify-content: space-between;
     
+    
+}
+.titrearticle {
+    display: flex;
+    justify-content: space-around;
+font-size: 2em;
+width: 830px;
+}
+h2 img {
+    width: 70px;
+    
+    flex-flow: row nowrap;
+
+
+}
+article {
+    text-align: justify;
+    width: 45.2em;
+    margin-right: 1em;
+
+}
+.corpstexte {
+font-size: 0.78em;
+
+}
+
+aside {
+    position: relative;
+  background-color: rgb(102, 101, 101);
+  font-size: 0.7em;
+  display: flex;
+  flex-flow: column;
+  height: 27em;
+  width: 16em;
+  text-align: justify;
+  border-radius: 7px;
+  padding: 1em;
+  margin-top: 4em;
+  color: rgb(209, 206, 206);
+  text-shadow: rgb(10, 10, 10);
+  
+}
+#donkey {
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(10, 10, 10);
+}
+#bulle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -18px;
+    bottom: 60%;
+}
+#rslogo {
+    display: flex;
+    justify-content: space-around;
+    width: 17em;
+    margin-left: -0.6em;
+    margin-bottom: -0.5em;
+}
+a img {
+    width: 60px;
+    height: 60px;
+}
+em {
+    text-decoration: underline;
+    color: brown;
+    font-weight: 600;
+}
+footer {
+    background-image: url("/images/separateur.png");
+    background-position: top;
+    background-repeat: repeat-x;
+    display: flex;
+    flex-flow: column wrap;
+    width: 59.6em;
+    height: 20em;
+    align-content: space-between
+}
+#twiit {
+    width: 15em;
+}
+
+
+
+img#icotop {
+    position: relative;
+    width: 2em;
+    height: 1em;
+    left: 5em;
+    top: -0.2em;
+
+}
+
+#galerie {
+  
+    position: relative;
+
+}
+#photosg {
+    width: 10em;
+    height: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+border: 1px solid black;
+margin-left: auto;
+}
+#amiz {
+height: 15em;
+width: 25em;
+}
+#amizzzz {
+    display: flex;
+    flex-flow: column wrap;
+    width: 23em;
+    height: 6em;
+    margin-top: 0.2em;
+}
+h4 ul li {
+    list-style-type: disc;
+    font-size: 3em;
 }
