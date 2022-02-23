@@ -1,0 +1,132 @@
+#blockpage {
+display: grid;
+grid-template-columns: 200px 1fr 1fr 1fr;
+grid-template-rows: 150px 100px 400px 1fr 100px;
+grid-row-gap: 20px;
+grid-column-gap: 10px;
+}
+#lisere {
+    grid-row: span 34;
+    background-color: darkgoldenrod;
+}
+#transition {
+    background-color: darkgreen;
+    grid-column: span 3;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 1px 1px rgb(18, 118, 212);
+}
+h1 {
+
+}
+header {
+    grid-column: 3;
+    background-color: chocolate;
+}
+
+#container {
+grid-column: 4;
+grid-row: 1;
+background-color: brown;
+padding-top: 3em;
+}
+#container .box.box1 { 
+
+}
+#container .box.box2 { 
+
+}
+#container .box.box3 { 
+
+}
+#container .box.box4 { 
+
+}
+#container .box.box5 { 
+
+}
+#secondcontainer { 
+    grid-column: 2;
+    grid-row: 3;
+    background-color: blue;
+
+}
+#secondcontainer .boxed.boxed1 { 
+
+}
+#secondcontainer .boxed.boxed1 h3 { 
+
+}
+#secondcontainer .boxed.boxed2 { 
+
+}
+#secondcontainer .boxed.boxed2 p { 
+
+}
+#secondcontainer .boxed.boxed3 { 
+
+}
+#secondcontainer .boxed.boxed3 p { 
+
+}
+#secondcontainer .boxed.boxed4 { 
+
+}
+#secondcontainer .boxed.boxed4 p { 
+
+}
+#secondcontainer .boxed.boxed5 { 
+
+}
+#secondcontainer .boxed.boxed5 p { 
+
+}
+#secondcontainer .boxed.boxed6.tableau { 
+
+}
+#secondcontainer .boxed.boxed6.tableau h3 { 
+
+}
+#secondcontainer .boxed.boxed7.tableau { 
+
+}
+#secondcontainer .boxed.boxed7.tableau p { 
+
+}
+#secondcontainer .boxed.boxed8.tableau { 
+
+}
+#secondcontainer .boxed.boxed8.tableau p { 
+
+}
+#secondcontainer .boxed.boxed9.tableau { 
+
+}
+#secondcontainer .boxed.boxed9.tableau p { 
+
+}
+#thirdcontainer {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: blueviolet;
+}
+#shadowtext { 
+grid-column: 4;
+grid-row: 3;
+background-color: aquamarine;
+border: 5px dashed green;
+}
+#shadowtext h3 { 
+
+}
+#shadowtext p { 
+
+}
+#fifthcontainer {
+    padding-top: 3em;
+   
+}
+#secondcontainer, #thirdcontainer, #shadowtext {
+    border: 10px solid rgb(236, 194, 8);
+}
