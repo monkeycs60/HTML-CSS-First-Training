@@ -4,10 +4,18 @@ grid-template-columns: 200px 1fr 1fr 1fr;
 grid-template-rows: 150px 100px 400px 1fr 100px;
 grid-row-gap: 20px;
 grid-column-gap: 10px;
+font-size: 1.5vh;
 }
 #lisere {
     grid-row: span 34;
     background-color: darkgoldenrod;
+}
+@media (max-width: 1450px) {
+    
+        #blockpage {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    }
 }
 #transition {
     background-color: darkgreen;
@@ -16,96 +24,74 @@ grid-column-gap: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2em;
     text-shadow: 1px 1px rgb(18, 118, 212);
+    
 }
-h1 {
+#transition p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: yellow;
+    height: 60px;
+    padding-bottom: 2v;
+    }
+    @media (max-width: 1450px) {
+        #transition p { 
+            color: darkred;
+    }
+    }
 
-}
 header {
-    grid-column: 3;
+    grid-column: 2;
     background-color: chocolate;
+    text-align: center;
+}
+#longueliste {
+    background-color: aqua;
+    grid: 1 / 3;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    background-color: blue;
+    margin-top: -0.03em;
+}
+@media (max-width: 1450px) {
+    ul {
+        color: yellow;
+        display: flex;
+        flex-flow: column;
+    }
+    h1 {
+        color: brown;
+    }
+}
+@media (max-width: 1050px) {
+    ul {
+        color: chartreuse;
+    }
+}
+ul li {
+    list-style-type: decimal;
+
 }
 
 #container {
-grid-column: 4;
-grid-row: 1;
+
+grid-area: 1 / 4 ;
 background-color: brown;
-padding-top: 3em;
+padding-top: 0.5em;
 }
-#container .box.box1 { 
 
-}
-#container .box.box2 { 
-
-}
-#container .box.box3 { 
-
-}
-#container .box.box4 { 
-
-}
-#container .box.box5 { 
-
-}
 #secondcontainer { 
     grid-column: 2;
     grid-row: 3;
     background-color: blue;
+    overflow: auto;
 
 }
-#secondcontainer .boxed.boxed1 { 
 
-}
-#secondcontainer .boxed.boxed1 h3 { 
-
-}
-#secondcontainer .boxed.boxed2 { 
-
-}
-#secondcontainer .boxed.boxed2 p { 
-
-}
-#secondcontainer .boxed.boxed3 { 
-
-}
-#secondcontainer .boxed.boxed3 p { 
-
-}
-#secondcontainer .boxed.boxed4 { 
-
-}
-#secondcontainer .boxed.boxed4 p { 
-
-}
-#secondcontainer .boxed.boxed5 { 
-
-}
-#secondcontainer .boxed.boxed5 p { 
-
-}
-#secondcontainer .boxed.boxed6.tableau { 
-
-}
-#secondcontainer .boxed.boxed6.tableau h3 { 
-
-}
-#secondcontainer .boxed.boxed7.tableau { 
-
-}
-#secondcontainer .boxed.boxed7.tableau p { 
-
-}
-#secondcontainer .boxed.boxed8.tableau { 
-
-}
-#secondcontainer .boxed.boxed8.tableau p { 
-
-}
-#secondcontainer .boxed.boxed9.tableau { 
-
-}
-#secondcontainer .boxed.boxed9.tableau p { 
-
-}
 #thirdcontainer {
     grid-column: 3;
     grid-row: 3;
@@ -117,16 +103,22 @@ grid-row: 3;
 background-color: aquamarine;
 border: 5px dashed green;
 }
-#shadowtext h3 { 
 
-}
-#shadowtext p { 
 
-}
 #fifthcontainer {
     padding-top: 3em;
    
 }
 #secondcontainer, #thirdcontainer, #shadowtext {
     border: 10px solid rgb(236, 194, 8);
+}
+#blokba {
+    
+    background-color: rgb(43, 226, 73);
+    grid-column: 2 / span 3;
+    grid-row: 4 ;
+    border: 3px ridge darkorchid;
+    border-radius: 10px;
+    text-align: justify;
+
 }
