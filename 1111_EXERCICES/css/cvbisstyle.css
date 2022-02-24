@@ -6,13 +6,66 @@ grid-row-gap: 20px;
 grid-column-gap: 10px;
 font-size: 1.5vh;
 }
+header, #transition, #secondcontainer, #blockba {
+    margin-left: 0.01em;
+}
+
+
+
+@media (max-width: 700px) {
+    #thirdcontainer {
+        grid-row: 2;
+        color: rgb(199, 73, 15);
+    
+    }
+    }
+
+
 #lisere {
-    grid-row: span 34;
-    background-color: darkgoldenrod;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blue;
+    
+   
 }
-#image1 {
-    position: fixed;
+#try3 {
+    display: flex;
+    align-items:center;
+   flex:1;
+   justify-content:center;
+   width: 200px;
+   max-width: 14%;
+   min-width: 8%;
+   position:fixed;
+   
+ 
 }
+
+@media (max-width: 700px) {
+    #lisere {
+        margin-right: 5em;
+
+    }
+}
+
+#coold {
+    display: flex;
+    flex-flow: column;
+    background-color: brown;
+    justify-content: center;
+    height: auto;
+
+    
+    
+   
+    
+}
+#imagebtc {
+    height: auto;
+    max-width: 100%;
+}
+
+    
 @media (max-width: 1450px) {
     
         #blockpage {
@@ -22,7 +75,7 @@ font-size: 1.5vh;
 }
 #transition {
     background-color: darkgreen;
-    grid-column: span 3;
+    grid-column: 2 / span 3;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2em;
@@ -106,6 +159,7 @@ grid-column: 4;
 grid-row: 3;
 background-color: aquamarine;
 border: 5px dashed green;
+overflow: hidden;
 }
 
 
@@ -126,3 +180,59 @@ border: 5px dashed green;
     text-align: justify;
 
 }
+
+@media (max-width: 750px) {
+    #blockpage {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr;
+grid-template-rows: 150px 100px 200px 200px 200px 100px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    #secondcontainer {
+        grid-column: 2 /6
+       
+        
+    
+    }
+    }
+@media (max-width: 700px) {
+#thirdcontainer {
+    grid-row: 4;
+    grid-column: 2/6;
+   
+    
+    
+
+}
+}
+@media (max-width: 700px) {
+    #shadowtext {
+        grid-row: 5;
+        grid-column: 2/6;
+        
+    
+    }
+    }
+    @media (max-width: 700px) {
+        #blokba {
+            grid-row: 6;
+            
+        
+        }
+        }
+        @media (max-width: 550px) {
+            #blockpage {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 100px 200px 200px 200px 100px;
+        margin-left: -30%;
+        
+            }
+            @media (max-width: 750px) {
+                #lisere {
+                    display: none;
+                
+                }
